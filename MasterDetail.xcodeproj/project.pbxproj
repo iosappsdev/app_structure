@@ -21,6 +21,12 @@
 		9BE2A2AA193EB71F00F56538 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE2A28C193EB71F00F56538 /* UIKit.framework */; };
 		9BE2A2B2193EB71F00F56538 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BE2A2B0193EB71F00F56538 /* InfoPlist.strings */; };
 		9BE2A2B4193EB71F00F56538 /* MasterDetailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE2A2B3193EB71F00F56538 /* MasterDetailTests.m */; };
+		9BE2A2BF193EBACB00F56538 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE2A2BE193EBACB00F56538 /* CustomTableViewCell.m */; };
+		9BE2A2C9193EC77700F56538 /* Detail1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE2A2C8193EC77700F56538 /* Detail1VC.m */; };
+		9BE2A2CC193EC78F00F56538 /* Detail2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE2A2CB193EC78F00F56538 /* Detail2VC.m */; };
+		9BE2A2CF193EC79F00F56538 /* Detail3VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE2A2CE193EC79F00F56538 /* Detail3VC.m */; };
+		9BE2A2D3193ECB1900F56538 /* AlternateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE2A2D2193ECB1900F56538 /* AlternateVC.m */; };
+		9BE2A2D6193ECE4300F56538 /* AltDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE2A2D5193ECE4300F56538 /* AltDetail.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,18 @@
 		9BE2A2AF193EB71F00F56538 /* MasterDetailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MasterDetailTests-Info.plist"; sourceTree = "<group>"; };
 		9BE2A2B1193EB71F00F56538 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9BE2A2B3193EB71F00F56538 /* MasterDetailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterDetailTests.m; sourceTree = "<group>"; };
+		9BE2A2BD193EBACB00F56538 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		9BE2A2BE193EBACB00F56538 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		9BE2A2C7193EC77700F56538 /* Detail1VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Detail1VC.h; sourceTree = "<group>"; };
+		9BE2A2C8193EC77700F56538 /* Detail1VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Detail1VC.m; sourceTree = "<group>"; };
+		9BE2A2CA193EC78F00F56538 /* Detail2VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Detail2VC.h; sourceTree = "<group>"; };
+		9BE2A2CB193EC78F00F56538 /* Detail2VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Detail2VC.m; sourceTree = "<group>"; };
+		9BE2A2CD193EC79F00F56538 /* Detail3VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Detail3VC.h; sourceTree = "<group>"; };
+		9BE2A2CE193EC79F00F56538 /* Detail3VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Detail3VC.m; sourceTree = "<group>"; };
+		9BE2A2D1193ECB1900F56538 /* AlternateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlternateVC.h; sourceTree = "<group>"; };
+		9BE2A2D2193ECB1900F56538 /* AlternateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlternateVC.m; sourceTree = "<group>"; };
+		9BE2A2D4193ECE4300F56538 /* AltDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AltDetail.h; sourceTree = "<group>"; };
+		9BE2A2D5193ECE4300F56538 /* AltDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AltDetail.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +130,13 @@
 		9BE2A28E193EB71F00F56538 /* MasterDetail */ = {
 			isa = PBXGroup;
 			children = (
-				9BE2A297193EB71F00F56538 /* AppDelegate.h */,
-				9BE2A298193EB71F00F56538 /* AppDelegate.m */,
 				9BE2A29A193EB71F00F56538 /* Main.storyboard */,
-				9BE2A29D193EB71F00F56538 /* ViewController.h */,
-				9BE2A29E193EB71F00F56538 /* ViewController.m */,
+				9BE2A2C3193EC72F00F56538 /* Delegate */,
+				9BE2A2C2193EC72100F56538 /* MainMenu */,
+				9BE2A2D0193ECB0600F56538 /* Alternate */,
+				9BE2A2C6193EC75200F56538 /* Detail3 */,
+				9BE2A2C5193EC74600F56538 /* Detail2 */,
+				9BE2A2C4193EC73E00F56538 /* Detail1 */,
 				9BE2A2A0193EB71F00F56538 /* Images.xcassets */,
 				9BE2A28F193EB71F00F56538 /* Supporting Files */,
 			);
@@ -150,6 +170,64 @@
 				9BE2A2B0193EB71F00F56538 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BE2A2C2193EC72100F56538 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9BE2A29D193EB71F00F56538 /* ViewController.h */,
+				9BE2A29E193EB71F00F56538 /* ViewController.m */,
+				9BE2A2BD193EBACB00F56538 /* CustomTableViewCell.h */,
+				9BE2A2BE193EBACB00F56538 /* CustomTableViewCell.m */,
+			);
+			name = MainMenu;
+			sourceTree = "<group>";
+		};
+		9BE2A2C3193EC72F00F56538 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				9BE2A297193EB71F00F56538 /* AppDelegate.h */,
+				9BE2A298193EB71F00F56538 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		9BE2A2C4193EC73E00F56538 /* Detail1 */ = {
+			isa = PBXGroup;
+			children = (
+				9BE2A2C7193EC77700F56538 /* Detail1VC.h */,
+				9BE2A2C8193EC77700F56538 /* Detail1VC.m */,
+			);
+			name = Detail1;
+			sourceTree = "<group>";
+		};
+		9BE2A2C5193EC74600F56538 /* Detail2 */ = {
+			isa = PBXGroup;
+			children = (
+				9BE2A2CA193EC78F00F56538 /* Detail2VC.h */,
+				9BE2A2CB193EC78F00F56538 /* Detail2VC.m */,
+			);
+			name = Detail2;
+			sourceTree = "<group>";
+		};
+		9BE2A2C6193EC75200F56538 /* Detail3 */ = {
+			isa = PBXGroup;
+			children = (
+				9BE2A2CD193EC79F00F56538 /* Detail3VC.h */,
+				9BE2A2CE193EC79F00F56538 /* Detail3VC.m */,
+			);
+			name = Detail3;
+			sourceTree = "<group>";
+		};
+		9BE2A2D0193ECB0600F56538 /* Alternate */ = {
+			isa = PBXGroup;
+			children = (
+				9BE2A2D1193ECB1900F56538 /* AlternateVC.h */,
+				9BE2A2D2193ECB1900F56538 /* AlternateVC.m */,
+				9BE2A2D4193ECE4300F56538 /* AltDetail.h */,
+				9BE2A2D5193ECE4300F56538 /* AltDetail.m */,
+			);
+			name = Alternate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +327,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BE2A2CC193EC78F00F56538 /* Detail2VC.m in Sources */,
+				9BE2A2D3193ECB1900F56538 /* AlternateVC.m in Sources */,
+				9BE2A2CF193EC79F00F56538 /* Detail3VC.m in Sources */,
 				9BE2A29F193EB71F00F56538 /* ViewController.m in Sources */,
 				9BE2A299193EB71F00F56538 /* AppDelegate.m in Sources */,
+				9BE2A2BF193EBACB00F56538 /* CustomTableViewCell.m in Sources */,
 				9BE2A295193EB71F00F56538 /* main.m in Sources */,
+				9BE2A2C9193EC77700F56538 /* Detail1VC.m in Sources */,
+				9BE2A2D6193ECE4300F56538 /* AltDetail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +540,7 @@
 				9BE2A2B9193EB71F00F56538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BE2A2BA193EB71F00F56538 /* Build configuration list for PBXNativeTarget "MasterDetailTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +549,7 @@
 				9BE2A2BC193EB71F00F56538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
